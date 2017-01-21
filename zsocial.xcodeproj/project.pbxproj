@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		60BF9FB01E32F7740041FE5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF9FAF1E32F7740041FE5D /* AppDelegate.swift */; };
-		60BF9FB21E32F7740041FE5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF9FB11E32F7740041FE5D /* ViewController.swift */; };
+		60BF9FB21E32F7740041FE5D /* SignInVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF9FB11E32F7740041FE5D /* SignInVC3.swift */; };
 		60BF9FB51E32F7740041FE5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BF9FB31E32F7740041FE5D /* Main.storyboard */; };
 		60BF9FB71E32F7740041FE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BF9FB61E32F7740041FE5D /* Assets.xcassets */; };
 		60BF9FBA1E32F7740041FE5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BF9FB81E32F7740041FE5D /* LaunchScreen.storyboard */; };
 		60BF9FC51E32F7750041FE5D /* zsocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF9FC41E32F7750041FE5D /* zsocialTests.swift */; };
 		60BF9FD01E32F7750041FE5D /* zsocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF9FCF1E32F7750041FE5D /* zsocialUITests.swift */; };
+		60BF9FDE1E32FB2E0041FE5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60BF9FDD1E32FB2E0041FE5D /* GoogleService-Info.plist */; };
+		8CE58203FAD80FA9858BF6A6 /* Pods_zsocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4A95C5950FF6507B4DE66F /* Pods_zsocial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		60BF9FAC1E32F7740041FE5D /* zsocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zsocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BF9FAF1E32F7740041FE5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60BF9FB11E32F7740041FE5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60BF9FB11E32F7740041FE5D /* SignInVC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC3.swift; sourceTree = "<group>"; };
 		60BF9FB41E32F7740041FE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60BF9FB61E32F7740041FE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60BF9FB91E32F7740041FE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		60BF9FCB1E32F7750041FE5D /* zsocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zsocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BF9FCF1E32F7750041FE5D /* zsocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zsocialUITests.swift; sourceTree = "<group>"; };
 		60BF9FD11E32F7750041FE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60BF9FDD1E32FB2E0041FE5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A30350CB7D4E3CBF5D681C07 /* Pods-zsocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zsocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-zsocial/Pods-zsocial.release.xcconfig"; sourceTree = "<group>"; };
+		B9E2975780D4049CECA23295 /* Pods-zsocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zsocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zsocial/Pods-zsocial.debug.xcconfig"; sourceTree = "<group>"; };
+		EF4A95C5950FF6507B4DE66F /* Pods_zsocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zsocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE58203FAD80FA9858BF6A6 /* Pods_zsocial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,8 @@
 				60BF9FC31E32F7750041FE5D /* zsocialTests */,
 				60BF9FCE1E32F7750041FE5D /* zsocialUITests */,
 				60BF9FAD1E32F7740041FE5D /* Products */,
+				88D36502F89008AA4BFC3A27 /* Pods */,
+				B5615BCCE4F3429CC9CB0404 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +106,14 @@
 		60BF9FAE1E32F7740041FE5D /* zsocial */ = {
 			isa = PBXGroup;
 			children = (
+				60BF9FDF1E3302E80041FE5D /* Model */,
+				60BF9FE01E3302ED0041FE5D /* View */,
+				60BF9FE11E3302F20041FE5D /* Controller */,
 				60BF9FAF1E32F7740041FE5D /* AppDelegate.swift */,
-				60BF9FB11E32F7740041FE5D /* ViewController.swift */,
 				60BF9FB31E32F7740041FE5D /* Main.storyboard */,
-				60BF9FB61E32F7740041FE5D /* Assets.xcassets */,
 				60BF9FB81E32F7740041FE5D /* LaunchScreen.storyboard */,
+				60BF9FB61E32F7740041FE5D /* Assets.xcassets */,
+				60BF9FDD1E32FB2E0041FE5D /* GoogleService-Info.plist */,
 				60BF9FBB1E32F7740041FE5D /* Info.plist */,
 			);
 			path = zsocial;
@@ -125,6 +137,45 @@
 			path = zsocialUITests;
 			sourceTree = "<group>";
 		};
+		60BF9FDF1E3302E80041FE5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		60BF9FE01E3302ED0041FE5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		60BF9FE11E3302F20041FE5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				60BF9FB11E32F7740041FE5D /* SignInVC3.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		88D36502F89008AA4BFC3A27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9E2975780D4049CECA23295 /* Pods-zsocial.debug.xcconfig */,
+				A30350CB7D4E3CBF5D681C07 /* Pods-zsocial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5615BCCE4F3429CC9CB0404 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A95C5950FF6507B4DE66F /* Pods_zsocial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60BF9FD41E32F7750041FE5D /* Build configuration list for PBXNativeTarget "zsocial" */;
 			buildPhases = (
+				306922980534D398E1B62EBD /* [CP] Check Pods Manifest.lock */,
 				60BF9FA81E32F7740041FE5D /* Sources */,
 				60BF9FA91E32F7740041FE5D /* Frameworks */,
 				60BF9FAA1E32F7740041FE5D /* Resources */,
+				628D64A125F5F6CF933912DE /* [CP] Embed Pods Frameworks */,
+				7484E4226CEA169C0CA72350 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60BF9FBA1E32F7740041FE5D /* LaunchScreen.storyboard in Resources */,
+				60BF9FDE1E32FB2E0041FE5D /* GoogleService-Info.plist in Resources */,
 				60BF9FB71E32F7740041FE5D /* Assets.xcassets in Resources */,
 				60BF9FB51E32F7740041FE5D /* Main.storyboard in Resources */,
 			);
@@ -257,12 +312,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		306922980534D398E1B62EBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		628D64A125F5F6CF933912DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zsocial/Pods-zsocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7484E4226CEA169C0CA72350 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zsocial/Pods-zsocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60BF9FA81E32F7740041FE5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60BF9FB21E32F7740041FE5D /* ViewController.swift in Sources */,
+				60BF9FB21E32F7740041FE5D /* SignInVC3.swift in Sources */,
 				60BF9FB01E32F7740041FE5D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +514,7 @@
 		};
 		60BF9FD51E32F7750041FE5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E2975780D4049CECA23295 /* Pods-zsocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MPW6J83KTE;
@@ -424,6 +528,7 @@
 		};
 		60BF9FD61E32F7750041FE5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A30350CB7D4E3CBF5D681C07 /* Pods-zsocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MPW6J83KTE;
@@ -512,6 +617,7 @@
 				60BF9FD61E32F7750041FE5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60BF9FD71E32F7750041FE5D /* Build configuration list for PBXNativeTarget "zsocialTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +626,7 @@
 				60BF9FD91E32F7750041FE5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60BF9FDA1E32F7750041FE5D /* Build configuration list for PBXNativeTarget "zsocialUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +635,7 @@
 				60BF9FDC1E32F7750041FE5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

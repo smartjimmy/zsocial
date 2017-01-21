@@ -1,0 +1,6 @@
+framework module Pods_zsocial {
+  umbrella header "Pods-zsocial-umbrella.h"
+
+  export *
+  module * { export * }
+}
