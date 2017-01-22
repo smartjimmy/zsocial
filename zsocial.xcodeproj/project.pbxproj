@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60247A281E34503500B1EE46 /* zsocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = zsocial.entitlements; sourceTree = "<group>"; };
 		60BF9FAC1E32F7740041FE5D /* zsocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zsocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BF9FAF1E32F7740041FE5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60BF9FB11E32F7740041FE5D /* SignInVC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC3.swift; sourceTree = "<group>"; };
@@ -116,6 +117,7 @@
 		60BF9FAE1E32F7740041FE5D /* zsocial */ = {
 			isa = PBXGroup;
 			children = (
+				60247A281E34503500B1EE46 /* zsocial.entitlements */,
 				60BF9FE61E3316F10041FE5D /* Util */,
 				60BF9FDF1E3302E80041FE5D /* Model */,
 				60BF9FE01E3302ED0041FE5D /* View */,
@@ -272,6 +274,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = MPW6J83KTE;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					60BF9FBF1E32F7750041FE5D = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -545,6 +552,7 @@
 			baseConfigurationReference = B9E2975780D4049CECA23295 /* Pods-zsocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = zsocial/zsocial.entitlements;
 				DEVELOPMENT_TEAM = MPW6J83KTE;
 				INFOPLIST_FILE = zsocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -559,6 +567,7 @@
 			baseConfigurationReference = A30350CB7D4E3CBF5D681C07 /* Pods-zsocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = zsocial/zsocial.entitlements;
 				DEVELOPMENT_TEAM = MPW6J83KTE;
 				INFOPLIST_FILE = zsocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
